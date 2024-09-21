@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alcohol Etílico a partir de Cáscaras de Plátano de Seda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            width: 50px;
+            height: 50px;
+        }
+        main {
+            padding: 20px;
+            margin: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="Logo del proyecto">
+        <h1>Producción de Alcohol Etílico a partir de Cáscaras de Plátano de Seda</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introducción</h2>
+            <p>El alcohol etílico o etanol es un compuesto químico que tiene múltiples aplicaciones industriales, medicinales y como biocombustible. Una de las fuentes innovadoras para su producción es a partir de residuos orgánicos, como las cáscaras de plátano de seda, que son ricas en azúcares fermentables.</p>
+        </section>
+
+        <section>
+            <h2>Proceso de Producción</h2>
+            <ol>
+                <li><strong>Recolección de las cáscaras:</strong> Se recolectan las cáscaras de plátano de seda después de su consumo.</li>
+                <li><strong>Preparación del material:</strong> Las cáscaras se limpian y se trituran para aumentar su superficie de exposición.</li>
+                <li><strong>Fermentación:</strong> Se añade una solución de agua y levadura para comenzar el proceso de fermentación, donde los azúcares se transforman en alcohol.</li>
+                <li><strong>Destilación:</strong> El alcohol producido en la fermentación se separa mediante un proceso de destilación, obteniendo etanol puro.</li>
+                <li><strong>Purificación:</strong> El alcohol destilado se purifica para eliminar impurezas y obtener un producto de mayor calidad.</li>
+            </ol>
+
+            <!-- Imagen del proceso -->
+            <div class="image-container">
+                <img src="images/proceso.jpg" alt="Imagen del proceso de producción">
+                <p>Figura 1: Proceso de producción de alcohol etílico a partir de cáscaras de plátano.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Beneficios</h2>
+            <ul>
+                <li>Reducción de residuos orgánicos.</li>
+                <li>Aprovechamiento de recursos naturales renovables.</li>
+                <li>Producción de biocombustibles sostenibles.</li>
+            </ul>
+
+            <!-- Imagen de los beneficios -->
+            <div class="image-container">
+                <img src="images/beneficios.jpg" alt="Beneficios de utilizar cáscaras de plátano">
+                <p>Figura 2: Los beneficios ambientales y económicos del proceso.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Proyecto de Alcohol Etílico a partir de Cáscaras de Plátano de Seda</p>
+    </footer>
+
+</body>
+</html>
